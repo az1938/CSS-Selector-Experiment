@@ -1,0 +1,108 @@
+body{
+  font-family: Georgia,serif;
+  background-image: linear-gradient(to bottom right, LightCoral, LightSkyblue);
+}
+
+.flexParent {
+  display:flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.flexParent div {
+  margin:20px;
+  padding:20px;
+  text-align: justify;
+  width:500px;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom right, lavenderblush, aliceblue);;
+}
+
+h1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+h4{
+  font-size: 30px;
+}
+
+h5{
+  font-size: 30px;
+}
+
+h6{
+  font-size: 30px;
+  line-height: 0%;
+}
+
+h7{
+  font-size: 30px;
+  line-height: 100px;
+  font-style: bold;
+}
+
+h5 + p {
+  background-color: Honeydew;
+}
+
+h3 + p {
+ color: Goldenrod;
+ background: white;
+}
+
+
+h2 ~ p {
+  background: LightCoral;
+}
+
+h5:first-child {
+  background-color: DarkSeaGreen;}
+
+h2::first-letter{
+font-size: 200%;
+  color: red;
+}
+
+h4::first-line {
+  background-color: LightSalmon;}
+
+h4 + p {
+    color: Orange;
+  }
+
+h7 + :hover{
+  background-color: Lavender;
+}
+
+h7:last-of-type {
+  Color:Purple;
+}
+
+h6 + :hover{
+font-size: 102%;
+color:RoyalBlue;
+}
+
+h6::first-letter{
+font-size: 200%;
+  color: RoyalBlue;
+}
+
+p:empty{
+  width: 100px;
+ height: 20px;
+ background: yellow;
+  background-color: yellow;
+}
